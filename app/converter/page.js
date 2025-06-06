@@ -2,7 +2,7 @@
 'use client'
 import { useState, useEffect } from 'react';
 
-export default function Home() {
+export default function Converter() {
   const [amount, setAmount] = useState(1);
   const [fromCurrency, setFromCurrency] = useState('USD');
   const [toCurrency, setToCurrency] = useState('EUR');
